@@ -24,4 +24,5 @@ yarn-error.log*
 .AppleDouble
 .LSOverride
 .vs
+.vscode
 app/css/

@@ -1,9 +1,9 @@
 
-//* {
- //  font-family: "Roboto", sans-serif;
-//}
-@import 'vars';
-@import 'mixin';
+* {
+   font-family: 'Museo Sans';
+}
+@import 'base/vars';
+@import 'base/mixin';
 @import 'fonts';
 @import '_general';
 @import '_media';
