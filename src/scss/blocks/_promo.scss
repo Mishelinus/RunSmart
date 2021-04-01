@@ -28,7 +28,7 @@
    &__icons{
       display: flex;
       justify-content: space-between;
-      width: 425px;
+      max-width: 425px;
       margin-bottom: 67px;
    }
    &__icon{

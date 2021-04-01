@@ -8,18 +8,35 @@
       }
   }
 
-
-
-
-
    .promo{
       &__wrapper{
          align-items: center;
       }
-   }
-   
-   
+   } 
 }
+
+@media(max-width: 992px){
+   .carousel{
+      &__inner{
+         max-width: 560px;
+      }
+
+      .slick-dots{
+visibility: visible;
+      }
+      
+      .slick-arrow.slick-prev, .slick-arrow.slick-next {
+          visibility: hidden;
+          position: inherit;
+          
+      }
+      // .slick-arrow.slick-next{
+
+      // }
+
+   }
+}
+
 @media(max-width: 768px){
    .header{
       flex-direction: column;
