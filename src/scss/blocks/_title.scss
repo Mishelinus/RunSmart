@@ -1,0 +1,19 @@
+.title{
+   font-size: 30px;
+   font-weight: 700;
+   color: rgb(13, 13, 13);
+   text-align: center;
+   text-transform: uppercase;
+   margin: 0 auto;
+   &_advant{
+      margin-bottom: 70px;
+   }
+   &_left{
+      color: #fff;
+      text-align: left;
+      max-width: 784px;
+      margin-left: 0;
+      margin-bottom: 78px;
+      font-size: 36px;
+   }
+}
