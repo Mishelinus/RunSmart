@@ -1,0 +1,14 @@
+
+.consultation{
+   padding: 95px 15px 88px 15px;
+   background: url(../img/bg2.jpg) center (center/cover) no-repeat;
+   min-height: 680px; 
+   &__descr{
+         font-size: 20px; 
+         color: rgb(255, 255, 255);
+         line-height: 1.2;
+         text-align: left;
+         margin-bottom: 34px;
+         font-weight: 500;
+   }
+}

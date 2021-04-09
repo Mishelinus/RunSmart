@@ -1,5 +1,24 @@
-h1 {
-   font-family: 'Museo Sans';
-   font-weight: 300;
-   color: $font-color;
+
+* {
+   font-family: 'Museo Sans Cyrl', sans-serif;
 }
+*{
+   margin: 0;
+   padding: 0;
+}
+
+.container{
+   max-width: 950px;
+   margin: 0 auto;
+}
+
+
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/button';
+@import 'blocks/advant';
+@import 'blocks/title';
+@import 'blocks/consultation';
+@import 'blocks/forms';
+@import 'blocks/carousel';
+@import 'blocks/catalog';

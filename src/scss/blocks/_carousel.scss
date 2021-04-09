@@ -1,0 +1,58 @@
+.carousel{
+   padding: 81px 0;
+   &__inner{
+      max-width: 750px;
+      margin: 0 auto;
+      position: relative;
+      & img{
+         width: 100%;
+      }
+   }
+   .slick-arrow{
+      font-size: 0;
+      background-color: #fff;
+      border: none;
+
+      &.slick-prev, &.slick-next{
+         display: block;
+         position:absolute;
+         width: 31px;
+         height: 50px;
+         transform:translateY(-50%);
+         top: 50%;
+      }
+        &.slick-prev{
+         background: url(../img/arrow_left.png) center (center/cover) no-repeat;
+         left: -60px;
+      }
+      &.slick-next{
+       background: url(../img/arrow_right.png) center (center/cover) no-repeat;
+       right: -60px;
+    }
+
+   }
+   .slick-dots{
+      visibility: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      & li{
+         list-style: none;
+         margin: 0 10px;
+         & button{
+            font-size: 0;
+            width: 10px;
+            height: 10px;
+            background-color:#fff;
+            border-radius: 100%;
+            
+         }
+         &.slick-active{
+            button{
+               background-color: red;
+            }
+         }
+      }
+   }
+   
+}
