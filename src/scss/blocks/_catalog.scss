@@ -10,7 +10,7 @@
       padding-left: 0;
    }
    &__tab {
-      display: flex;
+      //display: flex;
       width: 220px;
       height: 50px;
       border: 2px solid #d0d0d0;
@@ -19,7 +19,6 @@
       text-transform: uppercase;
       color: #6b6b6b;
       text-align: center;
-      display: inline-block;
       line-height: 48px;
       transform: skewX(-25deg);
       margin: 0 5px;

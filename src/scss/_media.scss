@@ -30,10 +30,28 @@ visibility: visible;
           position: inherit;
           
       }
-      // .slick-arrow.slick-next{
 
-      // }
-
+   }
+   .catalog__content{
+      justify-content: space-around;
+   }
+   .feedback-item{
+      flex-direction: column;
+      margin-bottom: 40px;
+      padding: 0 20px;
+      &__img{
+         margin: 0 auto;
+      }
+      &__content{
+         margin: 0 auto;
+      }
+      &__title{
+         text-align: center;
+         margin-top: 15px;
+      }
+      &__subtitle{
+         text-align: center;
+      }
    }
 }
 
@@ -78,6 +96,14 @@ visibility: visible;
       font-size: 30px;
       max-width: 680px;
    }
+}
+
+.catalog__tabs{
+   flex-direction: column;
+}
+.catalog__tab{
+   width: 85%;
+   margin-bottom: 30px;
 }
    
 }
