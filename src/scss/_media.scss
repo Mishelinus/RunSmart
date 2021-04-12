@@ -53,6 +53,33 @@ visibility: visible;
          text-align: center;
       }
    }
+
+   .footer{
+
+      &__info{
+         padding: 50px 20px 50px 20px;
+         width: 300px;
+      }
+   }
+}
+
+@media(max-width: 794px){
+   .footer{
+      &__info{
+         transition: 0.5s all;
+         padding: 20px;
+         display: flex;
+         top: 100%;
+         width: 100%;
+         flex-direction: column;
+      }
+      &__addr{
+         margin-bottom: 4px;
+      }
+      &__phone{
+         margin-bottom: 10px;
+      }
+   }
 }
 
 @media(max-width: 768px){
