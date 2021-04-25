@@ -2,8 +2,12 @@
 
 @import 'base/vars';
 @import 'base/mixin';
-@import 'fonts';
-@import '_general';
-@import '_media';
+@import 'base/animated';
+@import 'libs/font';
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/slick';
+@import 'general';
+@import 'media';
+
 
 
