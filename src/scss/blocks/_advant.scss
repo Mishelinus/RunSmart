@@ -17,6 +17,18 @@
       img{
          width: 100%;
       }
+      &_animated{
+         animation-name: heartbeat;
+         animation-duration: 2s;
+         animation-timing-function: ease;
+         animation-iteration-count: infinite;
+         &:hover{
+            animation-play-state: paused;
+            cursor: pointer;
+         }
+      }
+
+
    }
    &__heading {
       font-size: 18px;
@@ -32,7 +44,7 @@
       text-align: center;
       max-width: 231px;
       font-weight: 300;
-      word-break: word-break;
+      word-break: break-all;
       a{
          color: #ff0000;
          text-decoration: underline;
